@@ -1,0 +1,39 @@
+.text-capitalize {
+    text-transform: capitalize !important;
+  }
+  .text-uppercase {
+    text-transform: uppercase !important;
+  }
+  .normal-text {
+    text-transform: initial !important;
+  }
+  .text-underline {
+    text-decoration: underline;
+  }
+  .none-bullet {
+    list-style-type: none;
+  }
+  .fs-16 {
+    font-size: 16px;
+  }
+  .fs-22 {
+    font-size: 2.2rem;
+  }
+  .fs-27 {
+    font-size: 2.75rem;
+  }
+  .fs-40 {
+    font-size: 4rem;
+  }
+  .fs-44 {
+    font-size: 44px !important;
+  }
+  .fw-bolder {
+    font-weight: bolder;
+  }
+  .fw-900 {
+    font-weight: 900;
+  }
+  .lh-56 {
+    line-height: 56px;
+  }

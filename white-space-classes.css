@@ -1,0 +1,70 @@
+.margin-auto {
+    margin: 0 auto;
+  }
+  .m-1-5 {
+    margin: 1.5rem;
+  }
+  .my-100 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mt-5 {
+    margin-top: 5px;
+  }
+  .mt-20 {
+    margin-top: 20px;
+  }
+  .mt-50 {
+    margin-top: 50px;
+  }
+  .mt-80 {
+    margin-top: 80px;
+  }
+  .mt-100 {
+    margin-top: 100px;
+  }
+  .mr-0 {
+    margin-right: 0;
+  }
+  .mr-10 {
+    margin-right: 10px;
+  }
+  .mr-30 {
+    margin-right: 50;
+  }
+  .mr-m60 {
+    margin-right: -60px;
+  }
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  .mb-70 {
+    margin-bottom: 30px;
+  }
+  .bottom-space {
+    margin-bottom: 50px;
+  }
+  .ml-5 {
+    margin-left: 5px;
+  }
+  .left-m {
+    margin-left: 10%;
+  }
+  .ml-30 {
+    margin-left: 30px;
+  }
+  .p-2 {
+    padding: 2rem;
+  }
+  .py-70 {
+    padding-top: 70px;
+  }
+  .pl-0 {
+    padding-left: 0 !important;
+  }
+  .pl-55 {
+    padding-left: 55px;
+  }
+  .pb-70 {
+    padding-bottom: 70px;
+  }

@@ -1,0 +1,39 @@
+.white-letter {
+  color: white;
+}
+.white-back {
+  background-color: white;
+}
+.black-letter {
+  color: black;
+}
+.black-back {
+  background-color: black;
+}
+.grey-text {
+  color: #494949;
+}
+.text_gray {
+  color: #7b7b7b;
+}
+.text_gray_2 {
+  color: #7e7e7e;
+}
+.text_gray_3 {
+  color: #909090;
+}
+.text_gray_4 {
+  color: #8b8b8b;
+}
+.text_gray_5 {
+  color: #a7a7a7;
+}
+.text_gray_6 {
+  color: #8d8d8d;
+}
+.text-crimson {
+  color: crimson;
+}
+.opac_70 {
+  opacity: 0.7;
+}
