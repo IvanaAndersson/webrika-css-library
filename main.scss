@@ -1,0 +1,14 @@
+/* HERE WE IMPORT THE FONTS THAT WE WILL USE */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;700;900&display=swap");
+
+/* GENERAL RESET, can be removed if neccessary  */
+@import url("./abstracts/reset.css");
+
+/* HERE WE IMPORT ALL THE FILES THAT WE WILL USE, 
+    !!!STARTING WITH VARIABLES!!! */
+@import "/abstracts/variables.scss";
+@import "/abstracts/mixins.scss";
+@import "/abstracts/typography.scss";
+@import "/components/helper-classes.scss";
+
+
