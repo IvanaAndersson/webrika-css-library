@@ -6,18 +6,24 @@ The team style guide should always win over your own personal preferences. Consi
 
 main.css is the only file outside all other folders. In main.css we import all other css files. 
 
-### Folder ''abstracts'' includes:
-* resets and normalize files, 
+### Folder ''abstracts''
+Abstracts (or utilities): holds Sass tools, helper files, variables, functions, mixins and other config files. These files are meant to be just helpers which don’t output any CSS when compiled.
 * variables, 
-* typography, 
 * mixins
 
-### Folder ''components'' includes files:
-* helper classes
-* buttons
-* sections, which may be made into components
+### Folder ''base''
+Base: holds the boilerplate code for the project. Including standard styles such as resets and typographic rules, which are commonly used throughout your project.
+* reset and/or normalize files, 
+* typography,
+* helper / decoration classes
 
-### Folder ''sections'' includes sections, which 'may be included in all the pages (header, footer, etc.)
+### Folder ''components'' 
+Components (or modules): holds all of your styles for buttons, carousels, sliders, and similar page components (think widgets). Your project will typically contain a lot of component files — as the whole site/app should be mostly composed of small modules.
+* buttons
+* other sections, which may be made into components
+
+### Folder ''layout'' 
+Layout: contains all styles involved with the layout of your project. Such as styles for your header, footer, navigation and the grid system.
 
 ### Folder ''pages'' includes:
 * home pages styles
