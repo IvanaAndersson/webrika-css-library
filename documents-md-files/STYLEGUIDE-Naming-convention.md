@@ -40,4 +40,6 @@ instead of
 .class_name
 ```
 
-### 
+### Specific class names are written FIRST in the class list in the HTML element, 
+if you want to copy the same class on another section, but add a different styling to it, the class which adds the additional styles is written second
+and so on...
