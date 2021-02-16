@@ -1,14 +1,14 @@
 const path = require("path");
-// const assetsDir = '../assets';
+const assetsDir = '../assets';
 
 module.exports = {
   mode: "development",
   entry: { "main": "./main.scss" },
 
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, assetsDir),
     filename: "main.js",
-    publicPath: '/dist'
+    publicPath: ''
   },
 
   module: {
