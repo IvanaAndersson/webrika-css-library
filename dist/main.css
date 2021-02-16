@@ -9,10 +9,12 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-}/* HERE WE IMPORT THE FONTS THAT WE WILL USE */
-/* GENERAL RESET, can be removed if neccessary  */
-/* HERE WE IMPORT ALL THE FILES THAT WE WILL USE, 
-    !!!STARTING WITH VARIABLES!!! */
+}/*  HERE WE IMPORT THE FONTS THAT WE WILL USE */
+/*  GENERAL RESET, can be removed if neccessary  */
+/* 
+    HERE WE IMPORT ALL THE FILES THAT WE WILL USE, 
+    !!!STARTING WITH VARIABLES!!! 
+*/
 /*  ===========
 
 COLOR VARIABLES 
@@ -391,3 +393,10 @@ WHITE SPACE CLASSES
 
 .pb-70 {
   padding-bottom: 70px; }
+
+/*
+    IMPORT ALL LAYOUT STYLES NEXT, BUT PUT THEM BEFORE THE MORE SPECIFIC COMPONENT STYLES
+*/
+/*
+    IMPORT ALL STYLES FOR THE PAGES
+*/

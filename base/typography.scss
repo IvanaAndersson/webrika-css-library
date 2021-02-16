@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     color: $color-body-text;
     background: $color-body-bg;
-    @include screen-width("smallest") {  font-size: $font-size-base };
+    @include screen-width("smallest") { font-size: $font-size-base };
     @include screen-width("phone") { font-size: $font-size-tablet };
     @include screen-width("tablet") { font-size: $font-size-laptop };
     @include screen-width("laptop") { font-size: $font-size-desktop };

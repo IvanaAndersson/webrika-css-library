@@ -13,6 +13,7 @@
 @import "/abstracts/mixins.scss";
 @import "/base/typography.scss";
 @import "/base/helper-classes.scss";
+@import "/base/layout.scss";
 
 /*
     IMPORT ALL LAYOUT STYLES NEXT, BUT PUT THEM BEFORE THE MORE SPECIFIC COMPONENT STYLES
@@ -21,5 +22,12 @@
 @import "./layout/grid.scss";
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
+
+/*
+    IMPORT ALL STYLES FOR THE PAGES
+*/
+
+@import "./pages/home.scss";
+@import "./pages/about.scss";
 
 
